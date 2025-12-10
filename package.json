@@ -16,7 +16,7 @@
     "type-check": "tsc --noEmit",
     "prettier": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\"",
     "prettier:check": "prettier --check \"src/**/*.{js,ts,jsx,tsx}\"",
-    "prepare": "husky"
+    "prepare": "husky || true"
   },
   "repository": {
     "type": "git",
