@@ -1,0 +1,234 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "login": "Giriş Yap",
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "dashboard": "Kontrol Paneli",
+    "dashboardDescription": "Ana kontrol paneli ve genel bakış",
+    "users": "Kullanıcılar",
+    "usersDescription": "Kullanıcı yönetimi ve listesi",
+    "components": "Bileşenler",
+    "about": "Hakkında",
+    "contact": "İletişim",
+    "pricing": "Fiyatlandırma",
+    "notifications": "Bildirimler",
+    "help": "Yardım",
+    "support": "Destek",
+    "privacy": "Gizlilik",
+    "terms": "Kullanım Şartları",
+    "cookies": "Çerez Politikası",
+    "quickLinks": "Hızlı Linkler",
+    "legal": "Yasal",
+    "madeWith": "Türkiye'de ❤️ ile yapıldı",
+    "language": "Dil Seçimi",
+    "menu": "Menü"
+  },
+  "language": {
+    "title": "Dil",
+    "preference": "Dil Tercihi",
+    "description": "Uygulamanın dilini seçin",
+    "turkish": {
+      "title": "Türkçe",
+      "description": "Türkçe arayüz",
+      "native": "Türkçe"
+    },
+    "english": {
+      "title": "İngilizce",
+      "description": "İngilizce arayüz",
+      "native": "English"
+    },
+    "active": "Aktif",
+    "switchTo": "{{language}} diline geç",
+    "current": "Mevcut dil: {{language}}",
+    "loading": "Dil yükleniyor...",
+    "applying": "Dil uygulanıyor...",
+    "note": "Dil değişiklikleri anında uygulanır ve tarayıcınızda saklanır"
+  },
+  "theme": {
+    "title": "Tema",
+    "preference": "Tema Tercihi",
+    "description": "Uygulamanın görünümünü seçin",
+    "light": {
+      "title": "Açık Tema",
+      "description": "Açık renkli arayüz"
+    },
+    "dark": {
+      "title": "Koyu Tema",
+      "description": "Koyu renkli arayüz"
+    },
+    "active": "Aktif",
+    "switchTo": "{{theme}} temaya geç",
+    "current": "Mevcut tema: {{theme}}",
+    "loading": "Tema yükleniyor...",
+    "applying": "Tema uygulanıyor...",
+    "note": "Tema değişiklikleri anında uygulanır ve tarayıcınızda saklanır"
+  },
+  "errors": {
+    "unauthorized": "Bu sayfaya erişim için giriş yapmalısınız",
+    "sessionExpired": "Oturumunuz sona erdi, lütfen tekrar giriş yapın",
+    "invalidToken": "Geçersiz token, lütfen tekrar giriş yapın"
+  },
+  "homePage": {
+    "title": "Rick ve Morty",
+    "subtitle": "Evreni keşfetmeye başlamak için bir kategori seçin.",
+    "modules": {
+      "characters": {
+        "title": "Karakterler",
+        "description": "Çoklu evrendeki tüm karakterleri keşfedin."
+      },
+      "locations": {
+        "title": "Lokasyonlar",
+        "description": "Boyutları ve gezegenleri keşfedin."
+      },
+      "episodes": {
+        "title": "Bölümler",
+        "description": "Tüm sezonlara ve bölümlere göz atın."
+      }
+    }
+  },
+  "character": {
+    "list": {
+      "title": "Rick ve Morty Karakterleri",
+      "description": "Çoklu evren karakterlerini sunucu taraflı filtreleme ve render ile keşfedin.",
+      "error": "Karakterler yüklenemedi. Lütfen daha sonra tekrar deneyin."
+    },
+    "filter": {
+      "status": {
+        "label": "Durum",
+        "placeholder": "Durum Seç",
+        "all": "Tüm Durumlar",
+        "options": {
+          "alive": "Yaşıyor",
+          "dead": "Ölü",
+          "unknown": "Bilinmiyor"
+        }
+      },
+      "gender": {
+        "label": "Cinsiyet",
+        "placeholder": "Cinsiyet Seç",
+        "all": "Tüm Cinsiyetler",
+        "options": {
+          "female": "Kadın",
+          "male": "Erkek",
+          "genderless": "Cinsiyetsiz",
+          "unknown": "Bilinmiyor"
+        }
+      },
+      "clear": "Filtreleri Temizle"
+    },
+    "grid": {
+      "noResults": "Karakter bulunamadı",
+      "adjustFilters": "Filtrelerinizi değiştirmeyi deneyin"
+    },
+    "detail": {
+      "backToDirectory": "Listeye Dön",
+      "created": "Oluşturulma:",
+      "origin": "Köken",
+      "dimensionDetails": "Boyut detayları mevcut",
+      "location": "Son Bilinen Konum",
+      "locationDetails": "Konum detayları mevcut",
+      "episodes": "Bölüm Görünümleri",
+      "episode": "Bölüm"
+    },
+    "card": {
+      "lastKnownLocation": "Son bilinen konum:"
+    },
+    "metadata": {
+      "title": "{{name}} - Rick ve Morty Dizini",
+      "description": "{{origin}} kökenli {{species}} {{name}} detaylarını görüntüle.",
+      "notFound": "Karakter Bulunamadı"
+    }
+  },
+  "episode": {
+    "list": {
+      "title": "Bölümler",
+      "description": "Rick ve Morty'nin maceralarına göz atın.",
+      "error": "Bölümler yüklenemedi. Lütfen tekrar deneyin."
+    },
+    "filter": {
+      "name": {
+        "label": "İsim",
+        "placeholder": "Bölüm ara..."
+      },
+      "code": {
+        "label": "Bölüm Kodu",
+        "placeholder": "örn. S01E01..."
+      },
+      "clear": "Temizle"
+    },
+    "grid": {
+      "noResults": "Bölüm bulunamadı."
+    },
+    "card": {
+      "characters": "Karakter"
+    },
+    "detail": {
+      "backToList": "Bölümlere Dön",
+      "airDate": "Yayın Tarihi",
+      "characters": "Karakterler",
+      "created": "Oluşturulma",
+      "charactersAppearing": "Görünen Karakterler",
+      "noCharacters": "Bu bölümde karakter bulunamadı."
+    }
+  },
+  "location": {
+    "list": {
+      "title": "Lokasyonlar",
+      "description": "Çoklu evrenin çeşitli boyutlarını ve gezegenlerini keşfedin.",
+      "error": "Lokasyonlar yüklenemedi. Lütfen tekrar deneyin."
+    },
+    "filter": {
+      "name": {
+        "label": "İsim",
+        "placeholder": "Lokasyon ara..."
+      },
+      "type": {
+        "label": "Tür",
+        "placeholder": "örn. Gezegen, Küme..."
+      },
+      "dimension": {
+        "label": "Boyut",
+        "placeholder": "örn. C-137..."
+      },
+      "clear": "Temizle"
+    },
+    "grid": {
+      "noResults": "Lokasyon bulunamadı."
+    },
+    "card": {
+      "residents": "Sakinler"
+    },
+    "detail": {
+      "backToList": "Lokasyonlara Dön",
+      "dimension": "Boyut",
+      "unknownDimension": "Bilinmeyen Boyut",
+      "residents": "Sakinler",
+      "created": "Oluşturulma",
+      "noResidents": "Bu lokasyonda sakin bulunamadı."
+    }
+  },
+  "common": {
+    "pagination": {
+      "noItems": "Öğe bulunamadı",
+      "showing": "{{total}} öğeden {{start}}-{{end}} arası gösteriliyor",
+      "goTo": "Git",
+      "page": "Sayfa",
+      "go": "Git"
+    }
+  },
+  "notFound": {
+    "dimensionNotFound": "Boyut Bulunamadı",
+    "title": "Wubba Lubba Dub Dub!",
+    "description": "Görünüşe göre bu sayfa başka bir boyuta sürüklenmiş Morty! Portal tabancası olmadan buraya ulaşamazsın.",
+    "backHome": "Ana Boyuta Dön",
+    "goBack": "Geri Dön"
+  },
+  "footer": {
+    "quote": "\"Wubba Lubba Dub Dub!\" — Karakterler, lokasyonlar ve bölümlerden oluşan çoklu evrene erişim.",
+    "explore": "Keşfet",
+    "connect": "Bağlan",
+    "rights": "© {{year}} Rick ve Morty . Tüm hakları saklıdır.",
+    "madeBy": "<author/> tarafından <heart/> ile yapıldı"
+  }
+}

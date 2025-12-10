@@ -1,0 +1,234 @@
+{
+  "navigation": {
+    "home": "Home",
+    "login": "Login",
+    "profile": "Profile",
+    "settings": "Settings",
+    "dashboard": "Dashboard",
+    "dashboardDescription": "Main dashboard and overview",
+    "users": "Users",
+    "usersDescription": "User management and listing",
+    "components": "Components",
+    "about": "About",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "notifications": "Notifications",
+    "help": "Help",
+    "support": "Support",
+    "privacy": "Privacy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "madeWith": "Made with ❤️ in Turkey",
+    "language": "Language Selection",
+    "menu": "Menu"
+  },
+  "language": {
+    "title": "Language",
+    "preference": "Language Preference",
+    "description": "Select the application language",
+    "turkish": {
+      "title": "Turkish",
+      "description": "Turkish interface",
+      "native": "Türkçe"
+    },
+    "english": {
+      "title": "English",
+      "description": "English interface",
+      "native": "English"
+    },
+    "active": "Active",
+    "switchTo": "Switch to {{language}}",
+    "current": "Current language: {{language}}",
+    "loading": "Loading language...",
+    "applying": "Applying language...",
+    "note": "Language changes are applied instantly and saved in your browser"
+  },
+  "theme": {
+    "title": "Theme",
+    "preference": "Theme Preference",
+    "description": "Select the application appearance",
+    "light": {
+      "title": "Light Theme",
+      "description": "Light colored interface"
+    },
+    "dark": {
+      "title": "Dark Theme",
+      "description": "Dark colored interface"
+    },
+    "active": "Active",
+    "switchTo": "Switch to {{theme}} theme",
+    "current": "Current theme: {{theme}}",
+    "loading": "Loading theme...",
+    "applying": "Applying theme...",
+    "note": "Theme changes are applied instantly and saved in your browser"
+  },
+  "errors": {
+    "unauthorized": "You must log in to access this page",
+    "sessionExpired": "Your session has expired, please log in again",
+    "invalidToken": "Invalid token, please log in again"
+  },
+  "homePage": {
+    "title": "Rick and Morty",
+    "subtitle": "Select a category to start exploring the universe.",
+    "modules": {
+      "characters": {
+        "title": "Characters",
+        "description": "Explore all characters from the multiverse."
+      },
+      "locations": {
+        "title": "Locations",
+        "description": "Discover dimensions and planets."
+      },
+      "episodes": {
+        "title": "Episodes",
+        "description": "Browse through all seasons and episodes."
+      }
+    }
+  },
+  "character": {
+    "list": {
+      "title": "Rick and Morty Characters",
+      "description": "Explore the multiverse characters with server-side filtering and rendering.",
+      "error": "Failed to load characters. Please try again later."
+    },
+    "filter": {
+      "status": {
+        "label": "Status",
+        "placeholder": "Select Status",
+        "all": "All Statuses",
+        "options": {
+          "alive": "Alive",
+          "dead": "Dead",
+          "unknown": "Unknown"
+        }
+      },
+      "gender": {
+        "label": "Gender",
+        "placeholder": "Select Gender",
+        "all": "All Genders",
+        "options": {
+          "female": "Female",
+          "male": "Male",
+          "genderless": "Genderless",
+          "unknown": "Unknown"
+        }
+      },
+      "clear": "Clear Filters"
+    },
+    "grid": {
+      "noResults": "No characters found",
+      "adjustFilters": "Try adjusting your filters"
+    },
+    "detail": {
+      "backToDirectory": "Back to Directory",
+      "created": "Created:",
+      "origin": "Origin",
+      "dimensionDetails": "Dimension details available",
+      "location": "Last Known Location",
+      "locationDetails": "Location details available",
+      "episodes": "Episode Appearances",
+      "episode": "Episode"
+    },
+    "card": {
+      "lastKnownLocation": "Last known location:"
+    },
+    "metadata": {
+      "title": "{{name}} - Rick and Morty Directory",
+      "description": "View details for {{name}}, a {{species}} from {{origin}}.",
+      "notFound": "Character Not Found"
+    }
+  },
+  "episode": {
+    "list": {
+      "title": "Episodes",
+      "description": "Browse through the adventures of Rick and Morty.",
+      "error": "Failed to load episodes. Please try again."
+    },
+    "filter": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Search episodes..."
+      },
+      "code": {
+        "label": "Episode Code",
+        "placeholder": "e.g. S01E01..."
+      },
+      "clear": "Clear"
+    },
+    "grid": {
+      "noResults": "No episodes found."
+    },
+    "card": {
+      "characters": "Characters"
+    },
+    "detail": {
+      "backToList": "Back to Episodes",
+      "airDate": "Air Date",
+      "characters": "Characters",
+      "created": "Created",
+      "charactersAppearing": "Characters Appearing",
+      "noCharacters": "No characters found in this episode."
+    }
+  },
+  "location": {
+    "list": {
+      "title": "Locations",
+      "description": "Explore the various dimensions and planets of the multiverse.",
+      "error": "Failed to load locations. Please try again."
+    },
+    "filter": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Search locations..."
+      },
+      "type": {
+        "label": "Type",
+        "placeholder": "e.g. Planet, Cluster..."
+      },
+      "dimension": {
+        "label": "Dimension",
+        "placeholder": "e.g. C-137..."
+      },
+      "clear": "Clear"
+    },
+    "grid": {
+      "noResults": "No locations found."
+    },
+    "card": {
+      "residents": "Residents"
+    },
+    "detail": {
+      "backToList": "Back to Locations",
+      "dimension": "Dimension",
+      "unknownDimension": "Unknown Dimension",
+      "residents": "Residents",
+      "created": "Created",
+      "noResidents": "No residents found in this location."
+    }
+  },
+  "common": {
+    "pagination": {
+      "noItems": "No items found",
+      "showing": "Showing {{start}}-{{end}} of {{total}}",
+      "goTo": "Go to",
+      "page": "Page",
+      "go": "Go"
+    }
+  },
+  "notFound": {
+    "dimensionNotFound": "Dimension Not Found",
+    "title": "Wubba Lubba Dub Dub!",
+    "description": "It looks like this page has drifted into another dimension, Morty! You can't get here without a portal gun.",
+    "backHome": "Return to Home Dimension",
+    "goBack": "Go Back"
+  },
+  "footer": {
+    "quote": "\"Wubba Lubba Dub Dub!\" — Access to the multiverse of characters, locations and episodes.",
+    "explore": "Explore",
+    "connect": "Connect",
+    "rights": "© {{year}} Rick and Morty . All rights reserved.",
+    "madeBy": "Made with <heart/> by <author/>"
+  }
+}
